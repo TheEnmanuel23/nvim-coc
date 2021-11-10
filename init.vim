@@ -22,5 +22,6 @@ runtime ./plug.vim
 runtime ./after/plugin/floaterm.rc.vim
 runtime ./after/plugin/coc.rc.vim
 runtime ./after/plugin/fzf.rc.vim
+runtime ./after/plugin/vim-airline.rc.vim
 
 
