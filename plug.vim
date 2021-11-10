@@ -21,4 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'kyazdani42/nvim-web-devicons'
   " these icons work with nerdtree
   Plug 'ryanoasis/vim-devicons'
+  
+  " config coc
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
