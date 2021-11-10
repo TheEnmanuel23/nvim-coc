@@ -5,9 +5,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-fugitive'
   Plug 'easymotion/vim-easymotion'
 
-  Plug 'JoosepAlviste/nvim-ts-context-commentstring'
-  Plug 'terrortylor/nvim-comment'
-
   Plug 'preservim/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
 
