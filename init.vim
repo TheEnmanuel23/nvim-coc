@@ -24,4 +24,5 @@ runtime ./after/plugin/coc.rc.vim
 runtime ./after/plugin/fzf.rc.vim
 runtime ./after/plugin/vim-airline.rc.vim
 
-
+" colorscheme NeoSolarized
+colorscheme gruvbox

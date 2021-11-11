@@ -23,4 +23,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " status bar
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+
+  " themes
+  Plug 'overcache/NeoSolarized'
+  Plug 'morhetz/gruvbox'
+
+  " enable javascript and react syntax
+  Plug 'mxw/vim-jsx'
+  " enable comment code
+  Plug 'tpope/vim-commentary'
+  Plug 'suy/vim-context-commentstring'
+
+  " for typescript support
+  Plug 'leafgarland/typescript-vim'
+  Plug 'maxmellon/vim-jsx-pretty'
+
 call plug#end()
