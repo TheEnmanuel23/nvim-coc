@@ -37,5 +37,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " for typescript support
   Plug 'leafgarland/typescript-vim'
   Plug 'maxmellon/vim-jsx-pretty'
-
+  Plug 'mhinz/vim-startify'
 call plug#end()
+
