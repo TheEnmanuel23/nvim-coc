@@ -10,9 +10,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'voldikss/vim-floaterm'
 
-  " these icons work with nerdtree
-  Plug 'ryanoasis/vim-devicons'
-  
   " config coc
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -38,5 +35,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'leafgarland/typescript-vim'
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'mhinz/vim-startify'
+
+  Plug 'APZelos/blamer.nvim'
 call plug#end()
 
