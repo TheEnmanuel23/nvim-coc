@@ -1,6 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-surround'
-  Plug 'windwp/nvim-autopairs'
+  
+  " Plug 'windwp/nvim-autopairs'
+  Plug 'jiangmiao/auto-pairs'
 
   Plug 'tpope/vim-fugitive'
   Plug 'easymotion/vim-easymotion'
@@ -37,5 +39,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-startify'
 
   Plug 'APZelos/blamer.nvim'
+  Plug 'ap/vim-css-color'
+
+  " post install (yarn install | npm install) then load plugin only for editing supported files
+  Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 call plug#end()
 

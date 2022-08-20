@@ -1,5 +1,6 @@
 {
   "suggest.echodocSupport": true,
+  "suggest.noselect": false,
   "suggest.maxCompleteItemCount": 20,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
@@ -7,12 +8,12 @@
     "typescriptreact",
     "json",
     "javascriptreact",
-    "typescript.tsx"
+    "typescript.tsx",
+    "cssInJS"
   ],
   "eslint.filetypes": [
     "css",
     "graphql",
-    "sass",
     "javascript",
     "typescript",
     "typescriptreact",
@@ -23,5 +24,11 @@
   "diagnostic.warningSign": "•",
   "diagnostic.infoSign": "•",
   "prettier.tslintIntegration": true,
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "stylelintplus.enable": true,
+  "stylelintplus.cssInJs": true,
+  "stylelintplus.autoFixOnFormat": true,
+  "stylelintplus.autoFixOnSave": true,
+  "stylelintplus.validateOnSave": true,
+  "stylelintplus.validateOnType": true
 }
