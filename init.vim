@@ -25,7 +25,7 @@ runtime ./after/plugin/fzf.rc.vim
 runtime ./after/plugin/vim-airline.rc.vim
 runtime ./after/plugin/blamer.rc.vim
 runtime ./after/plugin/stylelintplus.rc.vim
-runtime ./after/plugin/prettier.rc.vim
+" runtime ./after/plugin/prettier.rc.vim
 " runtime ./after/plugin/autopairs.rc.vim
 
 " colorscheme NeoSolarized

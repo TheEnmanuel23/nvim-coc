@@ -9,7 +9,11 @@
     "json",
     "javascriptreact",
     "typescript.tsx",
-    "cssInJS"
+    "cssInJS",
+    "css",
+    "scss",
+    "less",
+    "markdown"
   ],
   "eslint.filetypes": [
     "css",
@@ -25,6 +29,10 @@
   "diagnostic.infoSign": "•",
   "prettier.tslintIntegration": true,
   "prettier.eslintIntegration": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "wxss.validate": false,
   "stylelintplus.enable": true,
   "stylelintplus.cssInJs": true,
   "stylelintplus.autoFixOnFormat": true,

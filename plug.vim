@@ -42,6 +42,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'ap/vim-css-color'
 
   " post install (yarn install | npm install) then load plugin only for editing supported files
-  Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+  " Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 call plug#end()
 
